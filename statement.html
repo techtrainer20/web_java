@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>statements</title>
+    </head>
+<body>
+<h1>JavaScript</h1>
+<h2>JavaScript in Body</h2>
+
+<p id="demo">A paragraph</p>
+<p id="demo1">A paragraph1</p>
+<p id="demo2">A paragraph2</p>
+<script>
+
+let name="Banu";
+let m=false;
+const names=["prasanna","keerthana","vignesh","gokul"];
+const firstlastname={fname:"akshaya",lname:"banu"};
+//let x=3;//block scope, cannot redeclare
+//var y;//global scope, can be redeclare
+//const z=0;//block scope, cannot redeclare, should be initialied while defining
+let x=3;
+var y=4;
+var y=5;
+//const z=4;
+z=x*y;
+document.getElementById("demo").innerHTML = "The value of z is "+firstlastname.lname;
+document.getElementById("demo1").innerHTML = "The value of z is "+names[3];
+document.getElementById("demo2").innerHTML = "The value of z is "+z;
+</script>
+</body>
+</html> 

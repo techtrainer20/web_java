@@ -1,0 +1,28 @@
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+
+<p>Call a function which performs a calculation and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = myFunction(4, 3); //function call
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {//a,b are function parameter
+  return a * b;
+}
+//const x = function (a, b) {return a * b};
+//document.getElementById("demo").innerHTML = x(4, 4);
+
+//const myFunction = new Function("a", "b", "return a * b");
+//document.getElementById("demo").innerHTML = myFunction(4, 3);
+
+//const x = (x, y) => x * y;
+//document.getElementById("demo").innerHTML = x(5, 5);
+</script>
+
+</body>
+</html>
